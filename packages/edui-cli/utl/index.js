@@ -48,3 +48,11 @@ exports.pathType = function (path) {
   }
   return exports.PathType.NONE;
 };
+
+/**
+ * 判断edui是否存在
+ * @return {*}
+ */
+exports.existEdui = function () {
+  return fs.existsSync(exports.resolve("node_modules/edui"))
+};

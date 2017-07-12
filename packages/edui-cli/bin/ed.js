@@ -5,7 +5,6 @@ const utl = require('./../utl');
 const path = require('path');
 const fs = require('fs');
 const chalk = require('chalk');
-const updateEduiConfig = require('edui/config/update');
 
 /**
  *  设置版本
@@ -17,7 +16,7 @@ program.version(appInfo.version);
  * 读取当前配置
  */
 // 读取当前项目下的配置
-let projectConfig = require(utl.resolve('edui-cli.json'))
+let projectConfig = require(utl.resolve('edui-cli.json'));
 // 读取默认配置
 let defaultConfig = require('./../config.json');
 let config = Object.assign({},defaultConfig,projectConfig);
@@ -47,8 +46,8 @@ config = Object.keys(config).reduce(( old, key ) => {
 },{});
 
 //如果有关于UI的配置,修改edui的配置
-if(config.ui) {
-  updateEduiConfig(config.ui);
+if(config.ui && utl.existEdui()) {
+  require('edui/config/update')(config.ui);
 }
 
 /**
