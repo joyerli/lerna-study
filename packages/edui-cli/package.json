@@ -1,0 +1,53 @@
+{
+  "author": {
+    "name": "joyer"
+  },
+  "bin": {
+    "tk": "./bin/ed.js",
+    "ed-cli": "./bin/ed.js"
+  },
+  "bugs": {
+    "url": "https://github.com/joyerli/edui-cli/issues"
+  },
+  "dependencies": {
+    "commander": "^2.11.0"
+  },
+  "description": "A team front-end single-page application solution",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "ec72f81631cbf47c0d5c77df146d025540f2639c",
+    "tarball": "https://registry.npmjs.org/taki-cli/-/taki-cli-1.0.5.tgz"
+  },
+  "engines": {
+    "node": ">=4.0.0",
+    "npm": ">=3.0.0"
+  },
+  "gitHead": "cf5046b91e9c60d69f7c2fda9c8e96ba1c484880",
+  "homepage": "https://github.com/joyerli/edui-cli#readme",
+  "keywords": [
+    "Front-end",
+    "SPA",
+    "single-page application",
+    "single-page application solution"
+  ],
+  "license": "ISC",
+  "main": "main.js",
+  "maintainers": [
+    {
+      "name": "joyer",
+      "email": "972325584@qq.com"
+    }
+  ],
+  "name": "edui-cli",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joyerli/edui-cli.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.1"
+}

@@ -1,0 +1,6 @@
+{
+  "cli.updateCheck": false,
+  "tpl.pcAdmin": "true",
+  "tpl.pcBlank": "www.baidu.com",
+  "user.sex": 1
+}
