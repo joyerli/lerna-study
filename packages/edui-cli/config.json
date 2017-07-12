@@ -1,6 +1,10 @@
 {
   "cli.updateCheck": false,
-  "tpl.pcAdmin": "true",
-  "tpl.pcBlank": "www.baidu.com",
-  "user.sex": 1
+  "projectTpl.pcAdmin": "https://github.com/joyerli/taki-ui-pc-admin-tpl.git",
+  "projectTpl.pcBlank": "https://github.com/joyerli/taki-ui-pc-blank-tpl.git",
+  "pageTpl":"tpl/page.vue",
+  "componentTpl":"tpl/component.vue",
+  "componentPrefix":"ed",
+  "modTpl":"tpl/mod.vue",
+  "npm.description": "自动生成项目"
 }

@@ -3,21 +3,23 @@
     "name": "joyer"
   },
   "bin": {
-    "tk": "./bin/ed.js",
+    "ed": "./bin/ed.js",
     "ed-cli": "./bin/ed.js"
   },
   "bugs": {
     "url": "https://github.com/joyerli/edui-cli/issues"
   },
   "dependencies": {
+    "json-templater": "^1.1.0",
+    "cross-spawn": "^5.1.0",
     "commander": "^2.11.0"
   },
   "description": "A team front-end single-page application solution",
   "devDependencies": {},
   "directories": {},
   "dist": {
-    "shasum": "ec72f81631cbf47c0d5c77df146d025540f2639c",
-    "tarball": "https://registry.npmjs.org/taki-cli/-/taki-cli-1.0.5.tgz"
+    "shasum": "238ab899457e23d6a973ac3caf0a25d75b32f6ce",
+    "tarball": "https://registry.npmjs.org/edui-cli/-/edui-cli-1.0.2.tgz"
   },
   "engines": {
     "node": ">=4.0.0",
@@ -32,7 +34,6 @@
     "single-page application solution"
   ],
   "license": "ISC",
-  "main": "main.js",
   "maintainers": [
     {
       "name": "joyer",
@@ -49,5 +50,5 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "version": "1.0.1"
+  "version": "1.0.3"
 }

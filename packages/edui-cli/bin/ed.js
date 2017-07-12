@@ -56,6 +56,7 @@ if(config.ui) {
  */
 process.CLI_CONFIG = config;
 
+// 检查版本
 
 /**
  * 设置命令

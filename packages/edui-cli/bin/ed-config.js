@@ -7,7 +7,7 @@ module.exports = function (program) {
   //像git风格一样的子命令
   program
   //子命令
-    .command('config [option] [value]')
+    .command('config [configOption] [value]')
     //短命令 - 简写方式
     .alias('c')
     //说明
