@@ -1,4 +1,5 @@
 const spawn = require('cross-spawn');
+const utl = require('./../utl');
 
 module.exports = function (program) {
   program
@@ -10,6 +11,6 @@ module.exports = function (program) {
     .description('按照指定的环境构建当前项目')
     //注册一个callback函数
     .action(function(env){
-      require('../../edui')({env});
+      require(utl.resolve('node_modules/edui'))({env});
     })
-}
+};
