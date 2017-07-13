@@ -9,7 +9,7 @@ module.exports = function (program) {
   //子命令
     .command('config [configOption] [value]')
     //短命令 - 简写方式
-    .alias('c')
+    .alias('C')
     //说明
     .description('查看edui-cli的配置信息')
     // config的选项

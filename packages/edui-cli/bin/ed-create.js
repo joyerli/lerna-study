@@ -12,7 +12,7 @@ module.exports = function (program) {
         // 命令
         .command('create <name> [tpl]')
         // 短命令 - 简写方式
-        .alias('C')
+        .alias('c')
         // 说明
         .description('创建项目,页面,组件,模块模版')
         // 选项
