@@ -5,6 +5,7 @@ const path = require('path');
 const spawn = require('cross-spawn');
 const utl = require('./../utl');
 const render = require('json-templater/string');
+const downGitRepo = require('download-git-repo');
 
 module.exports = function (program) {
     program
@@ -69,19 +70,29 @@ module.exports = function (program) {
                 const npmConfig = process.CLI_CONFIG.npm;
                 tpl = tpl || 'pcBlank';
                 let projectGithubUrl = tplConfig && tplConfig[tpl] ? tplConfig[tpl] : tpl;
-                console.log
-                var child = spawn('git', ['clone', projectGithubUrl,name], {
-                    stdio: 'inherit',
-                    cwd:process.cwd()
-                });
-                child.on("exit",function () {
-                    const projectPackagePath = utl.resolve(name+'/package.json');
+                
+                console.log(chalk.green(`Start download code...`));
+                
+                downGitRepo( projectGithubUrl , name, err => {
+                    
+                    if(err) {
+                        console.log(chalk.red(`Download code(${projectGithubUrl}) failed.`));
+                        return;
+                    }
+    
+                    console.log(chalk.green(`success...`));
+                    const projectPackagePath = path.join(process.cwd(),name+'/package.json');
+                    // 修改下载下来的package文件
                     let projectInfo = require(projectPackagePath);
                     projectInfo.name = name;
                     projectInfo = Object.assign({},projectInfo,npmConfig);
                     let out = JSON.stringify(projectInfo, null, 2);
                     fs.writeFileSync(projectPackagePath, out);
-                })
+                });
+    
+                
+                
+                
             }
             
             // 创建页面

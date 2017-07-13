@@ -1,7 +1,8 @@
 {
   "cli.updateCheck": false,
-  "projectTpl.pcAdmin": "https://github.com/joyerli/edui-pc-admin-tpl.git",
-  "projectTpl.pcBlank": "https://github.com/joyerli/edui-pc-blank-tpl.git",
+  "projectTpl.pcAdmin": "joyerli/edui-pc-admin-tpl",
+  "projectTpl.pcBlank": "joyerli/edui-pc-blank-tpl",
+  "uiPublicUrl":"joyerli/edui-public",
   "pageTpl":"tpl/page.vue",
   "componentTpl":"tpl/component.vue",
   "componentPrefix":"ed",
