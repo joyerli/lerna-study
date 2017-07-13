@@ -16,7 +16,9 @@ program.version(appInfo.version);
  * 读取当前配置
  */
 // 读取当前项目下的配置
-let projectConfig = require(utl.resolve('edui-cli.json'));
+let projectConfig = {};
+if( fs.existsSync(utl.resolve('edui-cli.json')) )
+  projectConfig = require(utl.resolve('edui-cli.json'));
 // 读取默认配置
 let defaultConfig = require('./../config.json');
 let config = Object.assign({},defaultConfig,projectConfig);
@@ -25,7 +27,7 @@ config = Object.keys(config).reduce(( old, key ) => {
   let keys = key.split(".");
   let namespace;
   let subKey;
-
+  
   if(keys.length === 2){
     namespace = keys[0];
     subKey = keys[1];
@@ -41,7 +43,7 @@ config = Object.keys(config).reduce(( old, key ) => {
   }else {
     old[subKey] = config[key];
   }
-
+  
   return old;
 },{});
 
