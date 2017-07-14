@@ -68,7 +68,7 @@ module.exports = function (program) {
             if(meta.project){
                 const tplConfig = process.CLI_CONFIG.projectTpl;
                 const npmConfig = process.CLI_CONFIG.npm;
-                tpl = tpl || 'pcBlank';
+                tpl = tpl || 'blank';
                 let projectGithubUrl = tplConfig && tplConfig[tpl] ? tplConfig[tpl] : tpl;
                 
                 console.log(chalk.green(`Start download code...`));
