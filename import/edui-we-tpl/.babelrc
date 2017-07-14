@@ -1,0 +1,29 @@
+{
+  "presets": [
+    ["env", { "modules": false }],
+    ["es2015", { "modules": false }],
+    "stage-2"
+  ],
+  "plugins": ["transform-runtime","lodash",["component", [
+    {
+      "libraryName": "mint-ui",
+      "style": true
+    },
+    {"libraryName": "_com@"},
+    {"libraryName": "com@"},
+    {"libraryName": "_comp@"},
+    {"libraryName": "comp@"},
+    {"libraryName": "_mixins@"},
+    {"libraryName": "mixins@"},
+    {"libraryName": "dire@"},
+    {"libraryName": "_dire@"},
+    {"libraryName": "api@"}
+  ]]],
+  "comments": false,
+  "env": {
+    "test": {
+      "presets": ["env", "stage-2","es2015"],
+      "plugins": [ "istanbul" ]
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "name": "edui-we-tpl",
+  "version": "1.0.0",
+  "description": "自动生成项目",
+  "author": "liliang <liang.li02@hand-china.com>",
+  "private": true,
+  "scripts": {
+    "gen-custom-conf": "node build/gen/gen-custom.js",
+    "gen-router": "node build/gen/gen-router.js",
+    "gen-utl": "node build/gen/gen-utl.js",
+    "gen-icon": "node build/icon.js",
+    "test-unit": "karma start test/unit/karma.conf.js",
+    "e2e": "node test/e2e/runner.js",
+    "test": "npm run unit && npm run e2e",
+    "lint": "eslint --ext .js,.vue src test/unit/specs test/e2e/specs"
+  },
+  "dependencies": {
+    "js-cookie": "^2.1.4",
+    "lodash": "^4.17.4",
+    "mint-ui": "^2.2.7",
+    "moment": "^2.18.1",
+    "muse-ui": "^2.1.0",
+    "rgbaster": "^1.0.0",
+    "vue": "^2.3.3",
+    "vue-material": "^0.7.4",
+    "vue-router": "^2.5.3",
+    "vuex": "^2.3.1"
+  },
+  "devDependencies": {
+    "edui": "^1.0.10"
+  },
+  "engines": {
+    "node": ">= 4.0.0",
+    "npm": ">= 3.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
