@@ -56,3 +56,7 @@ exports.pathType = function (path) {
 exports.existEdui = function () {
   return fs.existsSync(exports.resolve("node_modules/edui"))
 };
+
+exports.getEduiPath = function () {
+  return exports.resolve("node_modules/edui");
+};
