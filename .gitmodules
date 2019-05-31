@@ -14,3 +14,7 @@
 	path = init
 	url = https://github.com/joyerli/lerna-study.git
 	branch = init
+[submodule "publish"]
+	path = publish
+	url = https://github.com/joyerli/lerna-study.git
+	branch = publish
