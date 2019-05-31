@@ -5,7 +5,9 @@
 ## Usage
 
 ```
-const pk3 = require('pk3');
+npm -g i pk3
+
+eslint --help
 
 // TODO: DEMONSTRATE API
 ```

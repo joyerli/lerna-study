@@ -15,5 +15,11 @@
   ],
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bin": {
+    "eslint": "bin/eslint"
+  },
+  "dependencies": {
+    "yargs": "^13.2.4"
   }
 }
