@@ -1,0 +1,16 @@
+[submodule "add"]
+	path = add
+	url = https://github.com/joyerli/lerna-study.git
+  branch = add
+[submodule "create"]
+	path = create
+	url = https://github.com/joyerli/lerna-study.git
+	branch = create
+[submodule "bootstrap"]
+	path = bootstrap
+	url = https://github.com/joyerli/lerna-study.git
+	branch = bootstrap
+[submodule "init"]
+	path = init
+	url = https://github.com/joyerli/lerna-study.git
+	branch = init
