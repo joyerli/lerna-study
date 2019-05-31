@@ -1,0 +1,22 @@
+{
+  "name": "pk2",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "joyer <liang.li06@hand-china.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/pk2.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "keywords": [
+    "test"
+  ]
+}
