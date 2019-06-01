@@ -1,6 +1,6 @@
 {
   "name": "@test/lerna-publish1",
-  "version": "1.0.4",
+  "version": "1.0.2",
   "description": "测试发布",
   "main": "index.js",
   "scripts": {
@@ -12,5 +12,5 @@
   ],
   "author": "",
   "license": "ISC",
-  "gitHead": "17062b991ab1792d275f756d97544f7b9f241ec7"
+  "gitHead": "60268ab4e880759edae579fdb1923c681a0a50ac"
 }
