@@ -1,6 +1,6 @@
 {
   "name": "@test/lerna-publish1",
-  "version": "1.0.3-alpha.3+6639a57",
+  "version": "1.0.4",
   "description": "测试发布",
   "main": "index.js",
   "scripts": {
