@@ -6,6 +6,9 @@
   "scripts": {
     "print": "print-cachedir repeat-string"
   },
+  "files": [
+    "index.js"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
