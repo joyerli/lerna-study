@@ -1,70 +1,11 @@
 0 silly argv { _: [ 'publish' ],
-0 silly argv   contents: 'lib.js',
+0 silly argv   'git-reset': false,
+0 silly argv   gitReset: false,
 0 silly argv   composed: 'publish',
 0 silly argv   lernaVersion: '3.14.1',
 0 silly argv   '$0': 'node_modules/.bin/lerna' }
 1 notice cli v3.14.1
 2 verbose rootPath /Users/joyer/Documents/worksplace/font/lerna-study/publish
-3 verbose session f0f95889ddf43132
+3 verbose session 9d23072abb34a29f
 4 verbose user-agent lerna/3.14.1/node@v10.14.1+x64 (darwin)
-5 silly argv { _: [ 'publish' ],
-5 silly argv   contents: 'lib.js',
-5 silly argv   composed: 'publish',
-5 silly argv   lernaVersion: '3.14.1' }
-6 verbose rootPath /Users/joyer/Documents/worksplace/font/lerna-study/publish
-7 info current version 1.0.4
-8 silly isAnythingCommitted
-9 verbose isAnythingCommitted 1
-10 silly currentBranch
-11 verbose currentBranch publish
-12 silly remoteBranchExists
-13 silly isBehindUpstream
-14 silly isBehindUpstream publish is behind origin/publish by 0 commit(s) and ahead by 1
-15 silly hasTags
-16 verbose hasTags true
-17 silly git-describe.sync "v1.0.4-1-ge0bd646" => {"lastTagName":"v1.0.4","lastVersion":"v1.0.4","refCount":"1","sha":"e0bd646","isDirty":false}
-18 info Looking for changed packages since v1.0.4
-19 silly checking diff packages/lerna-publish1
-20 silly found diff in packages/lerna-publish1/package.json
-21 verbose filtered diff [ 'packages/lerna-publish1/package.json' ]
-22 verbose updated @test/lerna-publish1
-23 verbose git-describe undefined => "v1.0.4-1-ge0bd646"
-24 silly git-describe parsed => {"lastTagName":"v1.0.4","lastVersion":"v1.0.4","refCount":"1","sha":"e0bd646","isDirty":false}
-25 info execute Skipping GitHub releases
-26 silly lifecycle No script for "preversion" in "publish", continuing
-27 silly lifecycle No script for "preversion" in "@test/lerna-publish1", continuing
-28 silly lifecycle No script for "version" in "@test/lerna-publish1", continuing
-29 silly lifecycle No script for "version" in "publish", continuing
-30 silly gitAdd [ '/Users/joyer/Documents/worksplace/font/lerna-study/publish/packages/lerna-publish1/package.json',
-30 silly gitAdd   '/Users/joyer/Documents/worksplace/font/lerna-study/publish/lerna.json' ]
-31 silly gitCommit v1.0.5
-32 verbose git [ 'commit', '-m', 'v1.0.5' ]
-33 silly gitTag v1.0.5
-34 verbose git [ 'tag', 'v1.0.5', '-m', 'v1.0.5' ]
-35 silly lifecycle No script for "postversion" in "@test/lerna-publish1", continuing
-36 silly lifecycle No script for "postversion" in "publish", continuing
-37 info git Pushing tags...
-38 silly gitPush origin publish
-39 info publish Publishing packages to npm...
-40 info Verifying npm credentials
-41 verbose Retrieving npm user profile
-42 http fetch GET 200 https://registry.npmjs.org/-/npm/v1/user 2000ms
-43 silly npm profile get received {"tfa":false,"name":"joyer","email":"972325584@qq.com","email_verified":true,"created":"2017-04-11T05:26:25.909Z","updated":"2017-09-14T16:06:03.120Z","cidr_whitelist":null,"fullname":"joyer","homepage":"","freenode":"","twitter":"","github":"https://github.com/joyerli"}
-44 silly npm profile get received {"username":"joyer"}
-45 silly verifyNpmPackageAccess
-46 http fetch GET 200 https://registry.npmjs.org/-/org/joyer/package?format=cli 955ms
-47 warn ENOLICENSE Package @test/lerna-publish1 is missing a license.
-47 warn ENOLICENSE One way to fix this is to add a LICENSE.md file to the root of this repository.
-47 warn ENOLICENSE See https://choosealicense.com for additional guidance.
-48 silly getCurrentSHA
-49 verbose getCurrentSHA 9b9ef3e56304d846adafacca923b3756710d5d18
-50 silly lifecycle No script for "prepublish" in "publish", continuing
-51 silly lifecycle No script for "prepare" in "publish", continuing
-52 silly lifecycle No script for "prepublishOnly" in "publish", continuing
-53 silly lifecycle No script for "prepack" in "publish", continuing
-54 verbose pack-directory packages/lerna-publish1/lib.js
-55 silly lifecycle No script for "prepublish" in "@test/lerna-publish1", continuing
-56 silly lifecycle No script for "prepare" in "@test/lerna-publish1", continuing
-57 silly lifecycle No script for "prepublishOnly" in "@test/lerna-publish1", continuing
-58 silly lifecycle No script for "prepack" in "@test/lerna-publish1", continuing
-59 error
+5 error TypeError: Cannot read property 'length' of undefined
