@@ -1,6 +1,6 @@
 {
   "name": "@test/lern-study-version-version3",
-  "version": "2.0.7",
+  "version": "2.0.8",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "author": "",
   "dependencies": {
-    "@test/lern-study-version-version2": "^2.0.2"
+    "@test/lern-study-version-version2": "2.0.8"
   },
   "license": "ISC"
 }
