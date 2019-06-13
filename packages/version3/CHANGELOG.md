@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-alpha.0](https://github.com/joyerli/lerna-study/compare/v1.1.7...v2.0.0-alpha.0) (2019-06-13)
+
+**Note:** Version bump only for package @test/lern-study-version-version3
+
+
+
+
+
 ## [1.1.7](https://github.com/joyerli/lerna-study/compare/v1.1.6...v1.1.7) (2019-06-13)
 
 **Note:** Version bump only for package @test/lern-study-version-version3
