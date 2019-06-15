@@ -1,0 +1,4 @@
+[submodule "lerna-study"]
+	path = lerna-study
+	url = https://github.com/joyerli/lerna-study.git
+	branch = add
