@@ -7,8 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "dependencies": {
-    "@test/lern-study-version-version2": "^2.0.12"
-  },
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "element-ui": "^2.9.1"
+  }
 }

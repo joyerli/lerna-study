@@ -1,0 +1,27 @@
+@test/lern-study-version-version3: > core-js@2.6.9 postinstall /Users/joyer/Documents/worksplace/font/lerna-study/packages/version3/node_modules/core-js
+@test/lern-study-version-version3: > node scripts/postinstall || echo "ignore"
+@test/lern-study-version-version1: > core-js@2.6.9 postinstall /Users/joyer/Documents/worksplace/font/lerna-study/packages/version1/node_modules/core-js
+@test/lern-study-version-version1: > node scripts/postinstall || echo "ignore"
+@test/lern-study-version-version2: > core-js@2.6.9 postinstall /Users/joyer/Documents/worksplace/font/lerna-study/packages/version2/node_modules/core-js
+@test/lern-study-version-version2: > node scripts/postinstall || echo "ignore"
+@test/lern-study-version-version3: [96mThank you for using core-js ([94m https://github.com/zloirock/core-js [96m) for polyfilling JavaScript standard library![0m
+@test/lern-study-version-version3: [96mThe project needs your help! Please consider supporting of core-js on Open Collective or Patreon: [0m
+@test/lern-study-version-version3: [96m>[94m https://opencollective.com/core-js [0m
+@test/lern-study-version-version3: [96m>[94m https://www.patreon.com/zloirock [0m
+@test/lern-study-version-version3: [96mAlso, the author of core-js ([94m https://github.com/zloirock [96m) is looking for a good job -)[0m
+@test/lern-study-version-version1: [96mThank you for using core-js ([94m https://github.com/zloirock/core-js [96m) for polyfilling JavaScript standard library![0m
+@test/lern-study-version-version1: [96mThe project needs your help! Please consider supporting of core-js on Open Collective or Patreon: [0m
+@test/lern-study-version-version1: [96m>[94m https://opencollective.com/core-js [0m
+@test/lern-study-version-version1: [96m>[94m https://www.patreon.com/zloirock [0m
+@test/lern-study-version-version1: [96mAlso, the author of core-js ([94m https://github.com/zloirock [96m) is looking for a good job -)[0m
+@test/lern-study-version-version2: [96mThank you for using core-js ([94m https://github.com/zloirock/core-js [96m) for polyfilling JavaScript standard library![0m
+@test/lern-study-version-version2: [96mThe project needs your help! Please consider supporting of core-js on Open Collective or Patreon: [0m
+@test/lern-study-version-version2: [96m>[94m https://opencollective.com/core-js [0m
+@test/lern-study-version-version2: [96m>[94m https://www.patreon.com/zloirock [0m
+@test/lern-study-version-version2: [96mAlso, the author of core-js ([94m https://github.com/zloirock [96m) is looking for a good job -)[0m
+@test/lern-study-version-version3: added 10 packages from 9 contributors and audited 10 packages in 1.777s
+@test/lern-study-version-version3: found 0 vulnerabilities
+@test/lern-study-version-version1: added 10 packages from 9 contributors and audited 10 packages in 1.816s
+@test/lern-study-version-version1: found 0 vulnerabilities
+@test/lern-study-version-version2: added 10 packages from 9 contributors and audited 10 packages in 2.415s
+@test/lern-study-version-version2: found 0 vulnerabilities
